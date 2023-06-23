@@ -9,7 +9,6 @@ const app: Application = express()
 app.use(cors())
 app.use(express.json())
 
-const API_KEY: string = "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"
 
 const configuration = new Configuration({
    apiKey: API_KEY
