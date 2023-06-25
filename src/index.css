@@ -41,6 +41,14 @@ p, input {
   overflow: hidden;
 }
 
+.code-output {
+  margin: 20px;
+}
+
+.code-output p {
+  color: rgb(28, 185, 0);
+}
+
 .buttons {
   width: 100%;
   height: 35px;
@@ -118,7 +126,18 @@ input {
   background-color: rgb(255, 95, 86);
  }
 
+ button#get-query:hover {
+  background-color: rgb(255, 148, 142);
+  transition: 0.4s;
+ }
+
  button#clear-chat {
   border-radius: 0 10px 10px 0;
   background-color: rgb(255, 189, 45);
+ }
+
+ button#clear-chat:hover {
+  background-color: rgb(255, 212, 120);
+  transition: 0.4s;
+
  }
