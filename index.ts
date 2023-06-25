@@ -9,11 +9,8 @@ const app: Application = express()
 app.use(cors())
 app.use(express.json())
 
-<<<<<<< HEAD
-=======
 const API_KEY = process.env.API_KEY
 const PORT: number = 8000
->>>>>>> 1f75ffc (fixed 500 internal server error)
 
 const configuration = new Configuration({
     apiKey: API_KEY,

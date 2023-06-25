@@ -45,15 +45,18 @@ const App = () => {
   const lastestResponse = chat.filter(message => message.role === "assistant").pop()
 
   return (
-    <div className="app">
-      <MessagesDisplay userMessages ={filteredUserMessages}/>
-      <input value={value} onChange={e => setValue(e.target.value)}/> 
-      <CodeDisplay text={lastestResponse?.content || ""}/>
-      <div className ="button-container">
-        <button id="get-query" onClick={getQuery}>Create Gym Plan! 🏋</button>
-        <button id="clear-chat" onClick={clearChat}>Clear Chat!</button>
+    <div>
+      <h1>Gym Plan Generator</h1>
+        <div className="app">
+          <MessagesDisplay userMessages ={filteredUserMessages}/>
+          <input placeholder="Type gym plan here..." value={value} onChange={e => setValue(e.target.value)}/> 
+          <CodeDisplay text={lastestResponse?.content || ""}/>
+          <div className ="button-container">
+            <button id="get-query" onClick={getQuery}>Create Gym Plan! 🏋</button>
+            <button id="clear-chat" onClick={clearChat}>Clear Chat!</button>
+          </div>
+        </div>
       </div>
-    </div>
   )
 }
 
