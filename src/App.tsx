@@ -41,6 +41,13 @@ const App = () => {
     setChat([])
   }
 
+  const handleKeyDown = (event: any) => {
+    if (event.key === 'Enter') {
+        getQuery();
+    }
+
+  }
+
   const filteredUserMessages = chat.filter(message => message.role === "user")
   const lastestResponse = chat.filter(message => message.role === "assistant").pop()
 
@@ -49,7 +56,7 @@ const App = () => {
       <h1>Gym Plan Generator</h1>
         <div className="app">
           <MessagesDisplay userMessages ={filteredUserMessages}/>
-          <input placeholder="Type gym plan here..." value={value} onChange={e => setValue(e.target.value)}/> 
+          <input placeholder="Type gym plan here..." value={value} onChange={e => setValue(e.target.value)} onKeyDown={handleKeyDown}/> 
           <CodeDisplay text={lastestResponse?.content || ""}/>
           <div className ="button-container">
             <button id="get-query" onClick={getQuery}>Create Gym Plan! 🏋</button>

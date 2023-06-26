@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Gym Plan Generator 
+A web app using the openai API to generate a gym plan based what the user asks for.
+
+Try it out here: Soon to be live 
+
+## Tools & Tech
+React, TypeScript, Node, HTML, CSS
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
