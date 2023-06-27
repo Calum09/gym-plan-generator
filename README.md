@@ -1,5 +1,7 @@
 # Gym Plan Generator 
-A web app using the openai API to generate a gym plan based what the user asks for.
+A web app using the Openai API to generate a gym plan based on what the user asks for.
+
+If a user asks for a 5-day workout split, the program will devise them a plan
 
 Try it out here: Soon to be live 
 
