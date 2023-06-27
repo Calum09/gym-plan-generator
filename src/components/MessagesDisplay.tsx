@@ -14,6 +14,7 @@ const MessagesDisplay = ({ userMessages } : MessagesDisplayProps) => {
       <div className="messages-display">
             {userMessages.map((userMessage, _index) => 
               <MessageDisplay key={_index} message={userMessage}/>)}
+        
 
       </div>
     )

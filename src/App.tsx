@@ -55,6 +55,7 @@ const App = () => {
     <div>
       <h1>Gym Plan Generator</h1>
         <div className="app">
+          <h2>Message History</h2>
           <MessagesDisplay userMessages ={filteredUserMessages}/>
           <input placeholder="Type gym plan here..." value={value} onChange={e => setValue(e.target.value)} onKeyDown={handleKeyDown}/> 
           <CodeDisplay text={lastestResponse?.content || ""}/>

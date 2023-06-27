@@ -3,8 +3,13 @@ A web app using the openai API to generate a gym plan based what the user asks f
 
 Try it out here: Soon to be live 
 
+<img src="gym-plan-generator/images/gym-plan-generator.png" title="gym-plan-generator" alt="gym-plan-generator">
+
 ## Tools & Tech
-React, TypeScript, Node, HTML, CSS
+
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="TypeScript" alt="TypeScript" width="40" height="40"/>&nbsp;
 
 ## Getting Started with Create React App
 

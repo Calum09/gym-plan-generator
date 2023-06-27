@@ -19,7 +19,7 @@ p, input {
   font-size: 16px;
 }
 
-h1 {
+h1, h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,7 @@ h1 {
 .code-display {
   width: 96%;
   margin: 2%;
-  height: 46%;
+  height: 50%;
   border-radius: 8px;
   background-color: rgb(34, 34, 34);
   overflow: hidden;
@@ -51,6 +51,7 @@ h1 {
 
 .code-output {
   margin: 20px;
+  height: 100%
 }
 
 .code-output p {
