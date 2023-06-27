@@ -3,7 +3,8 @@ A web app using the openai API to generate a gym plan based what the user asks f
 
 Try it out here: Soon to be live 
 
-<img src="gym-plan-generator/images/gym-plan-generator.png" title="gym-plan-generator" alt="gym-plan-generator">
+![Uploading gym-plan-generator.png…]()
+
 
 ## Tools & Tech
 
