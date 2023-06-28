@@ -5,7 +5,7 @@ If a user asks for a 5-day workout split, the program will devise them a plan
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/307b5a30-5b54-4132-8a75-5a037ffc4824/deploy-status)](https://app.netlify.com/sites/starlit-gnome-e45ef4/deploys)
 
-Try it out here: https://gmy-plan-generator.netlify.app/
+Try it out here: gym-plan-generator.netlify.app
 
 ![gym-plan-generator](https://github.com/Calum09/gym-plan-generator/assets/111386433/e9f46fbb-5222-4831-8552-10a968ff5ebb)
 
