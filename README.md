@@ -5,8 +5,6 @@ A web app using the Openai API to generate a gym plan based on what the user inp
 
 If a user asks for a 5-day workout split, the program will devise a plan
 
-![gym-plan-generator](https://github.com/Calum09/gym-plan-generator/assets/111386433/e9f46fbb-5222-4831-8552-10a968ff5ebb)
-
 ## Tools & Tech
 
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
